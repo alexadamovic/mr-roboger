@@ -26,8 +26,10 @@ function neighborhood(num) {
 $(document).ready(function(){
   $("form#roboger").submit(function(event){
     event.preventDefault();
-
-
-
+    const userInput = parseInt($("#robinteger").val());
+    console.log(userInput)
+    const robogerOutput = neighborhood(userInput);
+    console.log(robogerOutput)
+    $("#roboger-output").html(robogerOutput);
   });
 });

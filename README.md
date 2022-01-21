@@ -35,7 +35,7 @@ Code:
 neighborhood(5);
 Expected Output: ["0", "Beep!", "Boop", "Won't you be my neighbor?", "4", "5"]
 
-Test: "'Won't you be my neighbor?' should take highest priority, followed by 'Boop", and lastly 'Beep!'"
+Test: "'Won't you be my neighbor?' should take highest priority in replacement order, followed by 'Boop", and lastly 'Beep!'"
 Code:
 neighborhood(32);
 Expected Output: [13] = "Won't you be my neighbor", [21] = "Boop", [32] = "Won't you be my neighbor"
