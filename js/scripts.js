@@ -5,7 +5,10 @@ function neighborhood(num) {
   for (let i = 0; i <= num; i++) {
     numArray.push(i);
   }
-  return numArray;
+  let stringArray = [];
+  numArray.forEach(element)
+    stringArray.push(toString(element));
+  return stringArray;
 }
 
 
