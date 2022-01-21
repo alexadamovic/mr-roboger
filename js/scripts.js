@@ -7,7 +7,14 @@ function neighborhood(num) {
   }
   let numString = numArray.toString();
   let stringArray = numString.split(',');
-  return stringArray;
+  let robogerArray = []
+  stringArray.forEach(function(element) {
+    if (element.includes('1')) {
+      robogerArray.push("Beep!");
+    }
+    else robogerArray.push(element);
+  });
+  return robogerArray;
 }
 
 

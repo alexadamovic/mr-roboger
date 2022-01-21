@@ -19,3 +19,8 @@ Test: "It should convert the string to a string array"
 Code:
 neighborhood(5);
 Expected Output: ["0", "1", "2", "3", "4", "5"]
+
+Test: "It should replace any string element that contains a 1 with "Beep!"
+Code:
+neighborhood(5);
+Expected Output: ["0", "Beep!", "2", "3", "4", "5"]
