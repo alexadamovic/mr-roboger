@@ -43,7 +43,7 @@ Copyright (c) _2022_ _Alex Adamovic_
 
 ## Tests
 
-Describe: neighborhood()
+#### Describe: neighborhood()
 
 Test: "It should take a number and return an array"
 Code:

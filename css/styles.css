@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Press+Start+2P&display=swap');
+
+body {
+  background-image: url(../img/rogers.gif);
+}
+
+.container {
+  background-color: rgb(173, 207, 108);
+  padding: 2em;
+}
+
+h1 {
+  font-family: 'Orbitron';
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Press Start 2P';
+  font-size: 1em;
+}
+
+.btn {
+  font-family: 'Press Start 2P';
+}
+
+form {
+
+}
