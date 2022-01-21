@@ -1,9 +1,8 @@
 // Business Logic
 
 function neighborhood(num) {
-  let numArray = [0];
-  let indexNumber = num
-  for (let i = 0; i <= indexNumber; i++) {
+  let numArray = [];
+  for (let i = 0; i <= num; i++) {
     numArray.push(i);
   }
   return numArray;
