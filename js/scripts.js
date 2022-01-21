@@ -1,7 +1,12 @@
 // Business Logic
 
 function neighborhood(num) {
-  let numArray =[0];
+  let lengthArray = [];
+  lengthArray.length = num;
+  let numArray = [];
+  lengthArray.forEach(function(element) {
+    numArray.push(1);
+  });  
   return numArray
 }
 
