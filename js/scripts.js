@@ -1,13 +1,12 @@
 // Business Logic
 
 function neighborhood(num) {
-  let lengthArray = [];
-  lengthArray.length = num;
-  let numArray = [];
-  lengthArray.forEach(function(element) {
-    numArray.push(1);
-  });  
-  return numArray
+  let numArray = [0];
+  let indexNumber = num
+  for (let i = 0; i <= indexNumber; i++) {
+    numArray.push(i);
+  }
+  return numArray;
 }
 
 
