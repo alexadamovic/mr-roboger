@@ -9,15 +9,16 @@ function neighborhood(num) {
   let robogerArray = []
   stringArray.forEach(function(element) {
     if (element.includes('3')) {
-      robogerArray.push("Won't you be my neighbor?")
+      robogerArray.push(" Won't you be my neighbor?")
     } else if (element.includes('2')) {
-      robogerArray.push("Boop")
+      robogerArray.push(" Boop")
     } else if (element.includes('1')) {
-      robogerArray.push("Beep!");
+      robogerArray.push(" Beep!");
     }
-    else robogerArray.push(element);
+    else robogerArray.push((" ").concat(element));
   });
-  return robogerArray;
+  robogerString = robogerArray.toString();
+  return robogerString;
 }
 
 
@@ -27,9 +28,7 @@ $(document).ready(function(){
   $("form#roboger").submit(function(event){
     event.preventDefault();
     const userInput = parseInt($("#robinteger").val());
-    console.log(userInput)
     const robogerOutput = neighborhood(userInput);
-    console.log(robogerOutput)
     $("#roboger-output").html(robogerOutput);
   });
 });
