@@ -6,7 +6,8 @@ function neighborhood(num) {
     numArray.push(i);
   }
   let numString = numArray.toString();
-  return numString;
+  let stringArray = numString.split(',');
+  return stringArray;
 }
 
 
