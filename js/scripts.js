@@ -9,7 +9,9 @@ function neighborhood(num) {
   let stringArray = numString.split(',');
   let robogerArray = []
   stringArray.forEach(function(element) {
-    if (element.includes('1')) {
+    if (element.includes('2')) {
+      robogerArray.push("Boop")
+    } else if (element.includes('1')) {
       robogerArray.push("Beep!");
     }
     else robogerArray.push(element);
