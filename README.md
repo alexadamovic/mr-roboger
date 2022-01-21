@@ -13,4 +13,4 @@ Expected Output: [0, 1, 2, 3, 4, 5]
 Test: "It should convert the number array to a string"
 Code:
 neighborhood(5);
-Expected Output: "0 1 2 3 4 5"
+Expected Output: "0,1,2,3,4,5"
