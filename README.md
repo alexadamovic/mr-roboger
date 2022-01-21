@@ -39,3 +39,8 @@ Test: "'Won't you be my neighbor?' should take highest priority in replacement o
 Code:
 neighborhood(32);
 Expected Output: [13] = "Won't you be my neighbor", [21] = "Boop", [32] = "Won't you be my neighbor"
+
+Test: "It should convert the final array back to a string"
+Code:
+neighborhood(5);
+Expected Output: "0, Beep!, Boop, Won't you be my neighbor?, 4, 5"
