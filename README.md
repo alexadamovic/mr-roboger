@@ -24,3 +24,8 @@ Test: "It should replace any string element that contains a 1 with "Beep!"
 Code:
 neighborhood(5);
 Expected Output: ["0", "Beep!", "2", "3", "4", "5"]
+
+Test: "It should replace any string element that contains a 2 with "Boop"
+Code:
+neighborhood(5);
+Expected Output: ["0", "Beep!", "Boop", "3", "4", "5"]
