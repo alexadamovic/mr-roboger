@@ -5,8 +5,7 @@ function neighborhood(num) {
   for (let i = 0; i <= num; i++) {
     numArray.push(i);
   }
-  let numString = numArray.toString();
-  let stringArray = numString.split(',');
+  let stringArray = (numArray.toString()).split(',');
   let robogerArray = []
   stringArray.forEach(function(element) {
     if (element.includes('3')) {
