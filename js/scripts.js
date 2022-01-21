@@ -9,18 +9,17 @@ function neighborhood(num) {
   let robogerArray = []
   stringArray.forEach(function(element) {
     if (element.includes('3')) {
-      robogerArray.push(" Won't you be my neighbor?")
+      robogerArray.push("'Won't you be my neighbor?'")
     } else if (element.includes('2')) {
-      robogerArray.push(" Boop")
+      robogerArray.push("'Boop'")
     } else if (element.includes('1')) {
-      robogerArray.push(" Beep!");
+      robogerArray.push("'Beep!'");
     }
-    else robogerArray.push((" ").concat(element));
+    else robogerArray.push(element);
   });
-  robogerString = robogerArray.toString();
+  let robogerString = robogerArray.join(', ');
   return robogerString;
 }
-
 
 // UI Logic
 
